@@ -1,0 +1,31 @@
+$small_screen_primary: darkred;
+$small_screen_bg: skyblue;
+$medium_screen_primary: darkblue;
+$medium_screen_bg: ivory;
+$large_screen_primary: darkgreen;
+$large_screen_bg: white;
+
+$font: 'verdana', 'sans-serif';
+
+#container {
+    background-color: $large_screen_bg;
+    color: $large_screen_primary;
+    outline: 2px solid $large_screen_primary;
+    font-family: $font;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #container {
+        background-color: $small_screen_bg;
+        color: $small_screen_primary;
+        outline: 2px solid $small_screen_primary;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    #container {
+        background-color: $medium_screen_bg;
+        color: $medium_screen_primary;
+        outline: 2px solid $medium_screen_primary;
+    }
+}

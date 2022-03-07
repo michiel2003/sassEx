@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+#container {
+  background-color: white;
+  color: darkgreen;
+  outline: 2px solid darkgreen;
+  font-family: "verdana", "sans-serif";
+}
+
+@media only screen and (max-width: 576px) {
+  #container {
+    background-color: skyblue;
+    color: darkred;
+    outline: 2px solid darkred;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  #container {
+    background-color: ivory;
+    color: darkblue;
+    outline: 2px solid darkblue;
+  }
+}
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

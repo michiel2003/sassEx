@@ -1,22 +1,36 @@
 #container {
-  background-color: white;
-  color: darkgreen;
-  outline: 2px solid darkgreen;
-  font-family: "verdana", "sans-serif";
+  color: darkred;
+  background-color: #daffff;
+  font-size: inherit;
+  margin: inherit;
+  padding: inherit;
+  line-height: inherit;
+  border: 5px solid darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #container {
-    background-color: skyblue;
-    color: darkred;
-    outline: 2px solid darkred;
+    color: darkblue;
+    background-color: #ffffda;
+    font-size: 16px;
+    margin: 16px;
+    padding: 16px;
+    line-height: 16px;
+    border: 5px solid darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
-@media only screen and (max-width: 768px) and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   #container {
-    background-color: ivory;
-    color: darkblue;
-    outline: 2px solid darkblue;
+    color: darkgreen;
+    background-color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 20px;
+    border: 5px solid darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
 

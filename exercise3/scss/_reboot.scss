@@ -1,3 +1,31 @@
-body{
+body {
     font-family: $fontstack-text;
+    @include layout(black, 1.5rem);
+    article {
+        h1 {
+            font-family: $fontstack-titles;
+            font-size: 1.75rem;
+            padding-bottom: 1.5rem;
+        }
+        p {
+            padding-bottom: .5rem;
+        }
+    }
+    p a {
+        display: block;
+        width: 130px;
+        font-family: $fontstack-titles;
+        @include layout(black, 1rem);
+        margin-left: 0px;
+    }
+    p a:hover {
+        @include layout(dimgray, 1rem);
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: $small) {
+    body {
+        @include layout(white, 1rem);
+    }
 }

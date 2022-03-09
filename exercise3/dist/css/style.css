@@ -1,27 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-#container {
-  background-color: white;
-  color: darkgreen;
-  outline: 2px solid darkgreen;
-  font-family: "verdana", "sans-serif";
-}
-
-@media only screen and (max-width: 576px) {
-  #container {
-    background-color: skyblue;
-    color: darkred;
-    outline: 2px solid darkred;
-  }
-}
-@media only screen and (max-width: 768px) and (min-width: 576px) {
-  #container {
-    background-color: ivory;
-    color: darkblue;
-    outline: 2px solid darkblue;
-  }
-}
 body {
   font-family: "Verdana", sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+  border: 5px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body article h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.75rem;
+  padding-bottom: 1.5rem;
+}
+body article p {
+  padding-bottom: 0.5rem;
+}
+body p a {
+  display: block;
+  width: 130px;
+  font-family: "Anton", sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 1rem;
+  border: 5px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0px;
+}
+body p a:hover {
+  color: dimgray;
+  background-color: #c9c9c9;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 1rem;
+  border: 5px solid dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    color: white;
+    background-color: #333333;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 1rem;
+    border: 5px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
